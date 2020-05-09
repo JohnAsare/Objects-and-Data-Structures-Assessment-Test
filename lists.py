@@ -5,3 +5,5 @@
 # Reassign 'hello' in this nested list to say 'goodbye' instead:
 
 list3 = [1, 2, [3, 4, 'hello']]
+goodbye = list3[2][2] = 'goodbye'
+print(list3)
